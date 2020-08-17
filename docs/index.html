@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>ASS SUPPORT</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap">
+        <link rel="stylesheet" href="assets/css/uix.css">
+        <script>
+
+            $(document).ready(() => {
+
+                setTimeout(() => { 
+                    $(".loading").fadeOut("slow");
+                }, 2000);
+
+                $("#menu-open").click(() => {
+                    $("#menu-panel").fadeIn("slow");
+                });
+
+                $("#menu-close").click(() => {
+                    $("#menu-panel").fadeOut("slow");
+                });
+
+                $("#popup-open").click(() => {
+                    $("#popup").fadeIn("slow");
+                });
+
+                $("#popup-close").click(() => {
+                    $("#popup").fadeOut("slow");
+                });
+            });
+
+        </script>
+
+    </head>
+    <body>
+
+        <div class="loading">
+            <label>
+
+                <div class="logo">
+                    <img src="./assets/img/logo-mod2.svg" style="height: 100px;" alt="">
+                </div>
+                <br>
+                <div class="uix-loader"></div>
+
+            </label>
+        </div>
+
+        <header class="uix-header">
+
+            <div class="container">
+
+                <div class="menu-left">
+                    <img src="./assets/img/logo.svg" alt="">
+                </div>
+
+                <div class="menu-right" id="menu-open">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+            </div>
+
+        </header>
+
+        <main class="uix-main">
+
+            <div class="uix-container">
+
+                <div class="uix-section">
+
+                    <div class="uix-content">
+
+                        <div class="uix-center">
+                        
+                            <div class="grid">
+                                <div class="row">
+                                    <div class="col s6">
+                                        <lottie-player 
+                                            src="../assets/img/vulk.json"
+                                            background="rgba(0, 0, 0, 0)"
+                                            speed=".9"  
+                                            style="width: 100%; height: auto;"  
+                                            loop autoplay>
+                                        </lottie-player>
+                                    </div>
+                                    <div class="col s6">
+                                        <div class="grid">
+                                            <div class="row">
+                                                <div class="col s12">
+                                                    <b class="text-lg text-decorator-primary">ASÍ SOMOS</b>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col s12">
+                                                    Un viaje a Silicon Valley nos impactó de una manera demasido positiva, permitiendonos adquiri.
+                                                    <br>
+                                                    <br>
+                                                    <br>
+                                                    <br>
+                                                    <br>
+                                                </div>
+                                                <div class="col s12 text-center">
+                                                    <button class="btn" id="popup-open">
+                                                        Abrir modal
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                
+                        </div>
+                            
+                    </div>
+                    
+                    <div class="uix-scroll">
+                        <img src="./assets/img/raton-white.svg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="uix-section uix-secondary">
+
+                    <div class="uix-content">
+
+                        <div class="uix-center">
+                        
+                            <div class="grid">
+                                <div class="row">
+                                    <div class="col s6">
+                                        <lottie-player 
+                                            src="../assets/img/telefono.json"
+                                            background="rgba(0, 0, 0, 0)"
+                                            speed=".9"  
+                                            style="width: 100% !important; height: auto;"  
+                                            loop autoplay>
+                                        </lottie-player>
+                                    </div>
+                                    <div class="col s6">
+                                        <div class="grid">
+                                            <div class="row">
+                                                <div class="col s12">
+                                                    <b class="text-lg text-decorator">ASÍ SOMOS</b>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col s12">
+                                                    <div class="grid">
+                                                        <div class="row">
+                                                            <div class="col s4 text-center">
+                                                                Aplicaciones Web
+                                                            </div>
+
+                                                            <div class="col s4 text-center">
+                                                                Web Scrapping
+                                                            </div>
+
+                                                            <div class="col s4 text-center">
+                                                                BI-Business Intelligence
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s4 text-center">
+                                                                Ethical Hacking
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                
+                        </div>
+                            
+                    </div>
+                    
+                    <div class="uix-scroll">
+                        <img src="./assets/img/raton.svg" alt="">
+                    </div>
+                    
+                </div>
+
+                <div class="uix-section uix-primary">
+                    <div class="uix-content">
+
+                        <div class="uix-center">
+                        
+                            <div class="grid">
+                                <div class="row">
+                                    <div class="col s6">
+                                        <lottie-player 
+                                            src="../assets/img/laptop.json"
+                                            background="rgba(0, 0, 0, 0)"
+                                            speed=".9"  
+                                            style="width: 100%; height: auto;"  
+                                            loop autoplay>
+                                        </lottie-player>
+                                    </div>
+                                    <div class="col s6">
+                                        <div class="grid">
+                                            <div class="row">
+                                                <div class="col s12">
+                                                    <b class="text-lg text-decorator">ASÍ SOMOS</b>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col s12">
+                                                    <div class="grid">
+                                                        <div class="col s12">
+                                                            Un viaje a Silicon Valley nos impactó de una manera demasido positiva, permitiendonos adquiri.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                
+                        </div>
+                            
+                    </div>
+                    <div class="uix-scroll">
+                        <!-- <img src="./assets/img/raton.svg" alt=""> -->
+                    </div>
+                </div>
+                
+            </div>
+
+        </main>
+
+        <div class="menu" id="menu-panel">
+
+            <div class="container">
+
+                <div class="menu-left">
+                    <i class="fas fa-adjust"></i>&nbsp;&nbsp;<ins>RESEÑA DE LA NUEVA NORMALIDAD</ins>
+                </div>
+
+                <div class="menu-right" id="menu-close">
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <div class="uix-content">
+                    <div class="uix-center">
+                        
+                        <div class="grid">
+                            <div class="row">
+
+                                <div class="col s12 text-center">
+                                    <div class="text-link">ASI SOMOS</div>
+                                </div>
+
+                                <div class="col s12 text-center">
+                                    <div class="text-link">EXPERIENCIA</div>
+                                </div>
+
+                                <div class="col s12 text-center">
+                                    <div class="text-link">CONVERSEMOS</div>
+                                </div>
+
+                                <div class="col s12 text-center">
+                                    
+                                    <ul class="uix-social">
+                                        <li>
+                                            <a href="">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fab fa-linkedin-in"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fab fa-whatsapp"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="col s12 text-center">
+                                    <button class="btn">
+                                        TRABAJO CON EMPRENDEDORES FREELANCE
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="popup" id="popup"  style="display: none;">
+            <div class="popup-content">
+                
+                <div class="grid">
+
+                    <div class="row">
+                        <div class="col s9">
+                            <div class="text-decorator text-left" style="font-size: 20px;">RESEÑA DE LA NUEVA NORMALIDAD</div>
+                        </div>
+                        <div class="col s3 text-center">
+                            <i class="fas fa-exclamation-circle" style="font-size: 40px;"></i>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col s12">
+
+                            <div>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula est non nibh tincidunt, posuere fermentum erat ullamcorper. Nullam dapibus magna ac libero hendrerit eleifend a ut diam. Etiam aliquet consequat erat, eget rhoncus est fermentum pellentesque. Praesent ut ultrices eros. Morbi mollis elit sit amet nibh consequat eleifend sit amet et augue. Integer eleifend, ligula a semper malesuada, nunc massa convallis erat, ac tincidunt risus leo sit amet leo. Ut sit amet nisl eros. Proin fringilla urna ac ultricies finibus. Integer varius sapien at velit ultrices, ac molestie massa tincidunt. Cras suscipit enim mi, quis porttitor est varius ut. Suspendisse semper massa sit amet dolor interdum, et porttitor ipsum posuere.
+                            </div>
+
+                        </div>
+
+                        <div class="col s12">
+                            
+
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col s12 text-center">
+                            <button type="submit" class="btn" id="popup-close">
+                                <label>entendido</label>
+                            </button>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- <div class="wait">
+                    <div class="box">
+                        <div class="loader contrast"></div>
+                    </div>
+                </div> -->
+                    
+            </div>
+        </div>
+
+    </body>
+</html>
+
+<!-- <lottie-player 
+    src="../assets/img/vulk.json"
+    background="rgba(0, 0, 0, 0)"
+    speed=".9"  
+    style="width: 100%; height: auto;"  
+    loop autoplay>
+</lottie-player> -->
